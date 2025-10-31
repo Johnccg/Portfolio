@@ -2,9 +2,9 @@
 Personal Portfolio Website
 📖 Project Overview
 
-This is a single-page responsive portfolio website created as part of a lab assignment. The website showcases personal information, projects, skills, and contact details. It is built using HTML, and CSS.
+This is a single-page responsive portfolio website created as part of a lab assignment. The website showcases personal information, and contact details. It is built using HTML, and CSS.
 
-    URL Link to website portfolio: Click Here
+    URL Link to website portfolio: https://johnccg.github.io/Portfolio/
     URL Link to website design: https://www.figma.com/design/Mu1LEFpJH6vvw16V7F3drs/Web-Developer-Portfolio-Website-Template--Community-?node-id=44-1143&t=AEV05dxZi0cRQ1sn-1
 
 🎯 Purpose
@@ -21,8 +21,6 @@ This portfolio is designed for:
 
     [✅] Potential employers or recruiters
 
-        Note: If you don't have a portfolio yet, please add a fake/sample portfolio first.
-
 🧱 Technologies Used
 
     HTML5
@@ -34,17 +32,13 @@ The website includes the following sections:
 
     Header – Name and tagline
     About Me – Short bio and photo
-    Projects – List of projects with descriptions and links
-    Skills – Technical and soft skills
     Contact – Email, social media, or contact form
-    Footer – Copyright and links
 
 📱 Responsiveness
 
 The site is optimized for:
 
     Desktop
-    Tablet
     Mobile
 
     Responsive design is achieved using media queries and flexible layouts.
@@ -69,11 +63,11 @@ portfolio-website/
 
 📄 Notes
 
-    I used ChatGPT to help me structure the HTML layout and fix a CSS bug.
-    I designed the color scheme and layout myself using Figma or Canva.
+    I designed the color scheme using Color Hunt: https://colorhunt.co/.
     I wrote the project descriptions and contact section manually.
-    Design based in this template: https://www.figma.com/community/file/1308624569713896610
+    Design based in this template, adapting the visuals and text to fit my person: https://www.figma.com/community/file/1308624569713896610
 
 📸 Screenshots
 
-Add screenshots of your website on different devices here and website design created in Figma or Canva.
+![Desktop screenshot](./images/screenshots/Desktop-screenshot.png)
+![Smartphone screenshot](./images/screenshots/Mobile-screenshot.png)
