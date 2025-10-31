@@ -4,6 +4,9 @@ body {
     font-family: "IbmPlexMono-Medium", sans-serif;
     color: white;
     margin: 64px 0;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
 }
 
 article {
@@ -12,6 +15,14 @@ article {
 
 .mark {
     color: #3e7b27;
+}
+
+h1 {
+    margin: 0;
+    color: #3e7b27;
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 400;
 }
 
 .mark-big {
@@ -67,16 +78,9 @@ nav {
     color: inherit;
 }
 
-.socials-icon {
+.logo-socials > img {
     width: 25px;
     height: 25px;
-}
-
-.socials-text {
-    text-align: left;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 400;
 }
 
 /* Styles for introduction section*/
@@ -316,9 +320,6 @@ nav {
     padding: 0px 24px;
     display: flex;
     flex-direction: row;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 400;
 }
 
 .contact-me {
@@ -452,4 +453,47 @@ nav {
     position: relative;
     overflow: hidden;
     object-fit: cover;
+}
+
+/* styles for contacts section */
+footer {
+    background: #091b12;
+    padding: 64px 0px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+}
+
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.footer-icon {
+    background: var(--brand-2, #85a947);
+    border-radius: 48px;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 82px;
+    height: 82px;
+}
+
+.footer-icon > img {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    position: relative;
+    overflow: visible;
 }
