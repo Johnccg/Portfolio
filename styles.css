@@ -2,7 +2,24 @@ body {
     background-color: #091b12;
     font-family: "IbmPlexMono-Medium", sans-serif;
     color: white;
-    margin: 64px 128px;
+    margin: 64px 0;
+}
+
+article{
+    padding: 64px 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 128px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
 }
 
 .logo {
@@ -40,19 +57,7 @@ body {
     font-weight: 400;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    gap: 32px;
-}
-
-.article-1 {
+.article-introduction {
     display: flex;
     flex-direction: column;
     gap: 0px;
@@ -274,7 +279,14 @@ nav {
 }
 
 .mark {
-    color: var(--brand-1, #3e7b27);
+    color: #3e7b27;
+}
+
+.mark-big {
+    color: #3e7b27;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 500;
 }
 
 .introduction-paragraph {
@@ -377,4 +389,62 @@ nav {
     line-height: var(--para-m-line-height, 20px);
     font-weight: var(--para-m-font-weight, 400);
     position: relative;
+}
+
+.article-1 {
+  background: #123524;
+  display: flex;
+  flex-direction: column;
+  gap: 128px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-container {
+  padding: 0px 64px 0px 128px;
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.about-me-content {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: flex-start;
+}
+.about-me-title {
+  background: #091b12;
+  border-radius: 40px 0px;
+  border-style: solid;
+  border-color: #3e7b27;
+  border-width: 4px;
+  padding: 16px 40px;
+  display: flex;
+  flex-direction: row;
+  font-size: 64px;
+  line-height: 72px;
+  font-weight: 400;
+}
+
+.about-me-text {
+  background: #091b12;
+  border-radius: 40px;
+  padding: 24px 40px 24px 40px;
+  gap: 16px;
+  width: 800px;
+}
+
+.about-me-image {
+  border-radius: 16px;
+  flex-direction: column;
+  width: 462px;
+  height: 556px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
 }
