@@ -5,7 +5,7 @@ Personal Portfolio Website
 This is a single-page responsive portfolio website created as part of a lab assignment. The website showcases personal information, projects, skills, and contact details. It is built using HTML, and CSS.
 
     URL Link to website portfolio: Click Here
-    URL Link to website design: Click Here
+    URL Link to website design: https://www.figma.com/design/Mu1LEFpJH6vvw16V7F3drs/Web-Developer-Portfolio-Website-Template--Community-?node-id=44-1143&t=AEV05dxZi0cRQ1sn-1
 
 🎯 Purpose
 
@@ -72,7 +72,7 @@ portfolio-website/
     I used ChatGPT to help me structure the HTML layout and fix a CSS bug.
     I designed the color scheme and layout myself using Figma or Canva.
     I wrote the project descriptions and contact section manually.
-    Dwsign based in this template: https://www.figma.com/community/file/1308624569713896610
+    Design based in this template: https://www.figma.com/community/file/1308624569713896610
 
 📸 Screenshots
 
